@@ -26,7 +26,6 @@ class MemoryGameViewController: UIViewController {
     @IBOutlet var cardButtons: [UIButton]!
     @IBOutlet weak var flipCountLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.setNavigationBarHidden(false, animated: true)
@@ -92,7 +91,6 @@ class MemoryGameViewController: UIViewController {
             }
             self.updateViewFromModel()
         }))
-        
         self.present(alert, animated: true)
     }
 }

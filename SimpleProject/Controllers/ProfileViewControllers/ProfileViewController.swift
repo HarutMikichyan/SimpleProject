@@ -22,7 +22,6 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         userNameOutlet.text = ProfileViewController.user.name
-        
         logOutButtonAddObserver()
         observingUser()
     }
@@ -37,7 +36,6 @@ class ProfileViewController: UIViewController {
         let vc = MemoryGameViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
-    
     
     @IBAction func moreButtonTapped(_ sender: UIButton) {
         let alertController = UIAlertController(title: "", message: "", preferredStyle: .actionSheet)

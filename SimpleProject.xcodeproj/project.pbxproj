@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				707F358D23746BB0008FE550 /* LoginViewController.swift */,
-				70FD1DBC23755C21002C6726 /* ProfileViewController */,
+				70FD1DBC23755C21002C6726 /* ProfileViewControllers */,
 				70FD1DBB23755C1A002C6726 /* MemoryGameViewControllers */,
 			);
 			path = Controllers;
@@ -133,13 +133,13 @@
 			path = MemoryGameViewControllers;
 			sourceTree = "<group>";
 		};
-		70FD1DBC23755C21002C6726 /* ProfileViewController */ = {
+		70FD1DBC23755C21002C6726 /* ProfileViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				70FD1DB323754E95002C6726 /* ProfileViewController.swift */,
 				70FD1DB423754E95002C6726 /* ProfileViewController.xib */,
 			);
-			path = ProfileViewController;
+			path = ProfileViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
